@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.min.css" type="text/css" />
+    <title>Currency convert</title>
+  </head>
+  <body>
+    <header class="container">
+      <!-- //TOP BAR DESIGN -->
+      <section class="information">
+        <div class="information__left">
+          <p class="information__left--text">
+            Your're on our website United Kingdom.
+            <span class="information__highlight"
+              >&nbsp;
+              <img
+                src="images/ios-arrow-dropup.svg"
+                alt="carret-up"
+                class="information__icon"
+              />
+              <span class="information__highlight--text">Change region</span>
+            </span>
+          </p>
+        </div>
+
+        <div class="information__right">
+          <span class="information__highlight">
+            <span class="information__highlight--text">Dismiss</span>
+            <img
+              src="images/close.svg"
+              alt="carret-up"
+              class="information__icon"
+            />
+          </span>
+        </div>
+      </section>
+
+      <!-- //HERO SECTION -->
+      <section class="hero">
+        <img src="images/logo.svg" alt="logo-site" class="hero__logo" />
+
+        <nav class="hero__navi">
+          <ul class="hero__navi--list">
+            <li class="hero__navi--item">
+              <a href="#" class="hero__navi--link">Browse all currencies</a>
+            </li>
+            <li class="hero__navi--item">            
+              <a href="#" class="hero__navi--link">Get rates alert</a>
+            </li>
+            <li class="hero__navi--item">            
+              <a href="#" class="hero__navi--link">Compare rates alter</a>
+            </li>
+          </ul>
+        
+        </nav>
+        
+        <a href="#" class="hero__btn">My account</a>
+
+
+        <!-- Mobile responsive menu-icon -->
+        <a class="hero__menu-icon">
+          <img src="images/menu-icon.svg" alt="menu-menu" />
+        </a>
+
+        <h1 class="hero__h1">
+          Worldwide Currency converter
+          <span class="hero__h1--special"
+            >Check live foreign currency exchange rates</span
+          >
+        </h1>
+      </section>
+      <section class="currency">
+        <!-- CUURENCY NUMBER 1 -->
+        <div class="currencies  currencies--one" >
+          <label class="currencies__label">Amount</label>
+          <input
+            type="number"
+            id="amount-1"
+            class="currencies__input"
+            value="1"
+          />
+          <select id="currency__one">
+            <option value="AED">AED</option>
+            <option value="ARS">ARS</option>
+            <option value="AUD">AUD</option>
+            <option value="BGN">BGN</option>
+            <option value="BRL">BRL</option>
+            <option value="BSD">BSD</option>
+            <option value="CAD">CAD</option>
+            <option value="CHF">CHF</option>
+            <option value="CLP">CLP</option>
+            <option value="CNY">CNY</option>
+            <option value="COP">COP</option>
+            <option value="CZK">CZK</option>
+            <option value="DKK">DKK</option>
+            <option value="DOP">DOP</option>
+            <option value="EGP">EGP</option>
+            <option value="EUR">EUR</option>
+            <option value="FJD">FJD</option>
+            <option value="GBP" selected>GBP</option>
+            <option value="GTQ">GTQ</option>
+            <option value="HKD">HKD</option>
+            <option value="HRK">HRK</option>
+            <option value="HUF">HUF</option>
+            <option value="IDR">IDR</option>
+            <option value="ILS">ILS</option>
+            <option value="INR">INR</option>
+            <option value="ISK">ISK</option>
+            <option value="JPY">JPY</option>
+            <option value="KRW">KRW</option>
+            <option value="KZT">KZT</option>
+            <option value="MXN">MXN</option>
+            <option value="MYR">MYR</option>
+            <option value="NOK">NOK</option>
+            <option value="NZD">NZD</option>
+            <option value="PAB">PAB</option>
+            <option value="PEN">PEN</option>
+            <option value="PHP">PHP</option>
+            <option value="PKR">PKR</option>
+            <option value="PLN">PLN</option>
+            <option value="PYG">PYG</option>
+            <option value="RON">RON</option>
+            <option value="RUB">RUB</option>
+            <option value="SAR">SAR</option>
+            <option value="SEK">SEK</option>
+            <option value="SGD">SGD</option>
+            <option value="THB">THB</option>
+            <option value="TRY">TRY</option>
+            <option value="TWD">TWD</option>
+            <option value="UAH">UAH</option>
+            <option value="USD">USD</option>
+            <option value="UYU">UYU</option>
+            <option value="VND">VND</option>
+            <option value="ZAR">ZAR</option>
+          </select>
+          <!-- <span class="custom-arrow"></span> -->
+        </div>
+
+        <!-- Buton swap or swticher -->
+        <button class="btn-swap">
+          <img src="images/swap-btn.svg" alt="" class="swap" />
+        </button>
+
+        <!-- CUURENCY NUMBER 2 -->
+        <div class="currencies  currencies--two">
+          <label class="currencies__label">Converted to</label>
+          <input
+            type="number"
+            id="amount-2"
+            class="currencies__input"
+            placeholder="0"
+          />
+          <select id="currency__two">
+            <option value="AED">AED</option>
+            <option value="ARS">ARS</option>
+            <option value="AUD">AUD</option>
+            <option value="BGN">BGN</option>
+            <option value="BRL">BRL</option>
+            <option value="BSD">BSD</option>
+            <option value="CAD">CAD</option>
+            <option value="CHF">CHF</option>
+            <option value="CLP">CLP</option>
+            <option value="CNY">CNY</option>
+            <option value="COP">COP</option>
+            <option value="CZK">CZK</option>
+            <option value="DKK">DKK</option>
+            <option value="DOP">DOP</option>
+            <option value="EGP">EGP</option>
+            <option value="EUR">EUR</option>
+            <option value="FJD">FJD</option>
+            <option value="GBP">GBP</option>
+            <option value="GTQ">GTQ</option>
+            <option value="HKD">HKD</option>
+            <option value="HRK">HRK</option>
+            <option value="HUF">HUF</option>
+            <option value="IDR">IDR</option>
+            <option value="ILS">ILS</option>
+            <option value="INR">INR</option>
+            <option value="ISK">ISK</option>
+            <option value="JPY">JPY</option>
+            <option value="KRW">KRW</option>
+            <option value="KZT">KZT</option>
+            <option value="MXN">MXN</option>
+            <option value="MYR">MYR</option>
+            <option value="NOK">NOK</option>
+            <option value="NZD">NZD</option>
+            <option value="PAB">PAB</option>
+            <option value="PEN">PEN</option>
+            <option value="PHP">PHP</option>
+            <option value="PKR">PKR</option>
+            <option value="PLN">PLN</option>
+            <option value="PYG">PYG</option>
+            <option value="RON">RON</option>
+            <option value="RUB">RUB</option>
+            <option value="SAR">SAR</option>
+            <option value="SEK">SEK</option>
+            <option value="SGD">SGD</option>
+            <option value="THB">THB</option>
+            <option value="TRY">TRY</option>
+            <option value="TWD">TWD</option>
+            <option value="UAH">UAH</option>
+            <option value="USD" selected>USD</option>
+            <option value="UYU">UYU</option>
+            <option value="VND">VND</option>
+            <option value="ZAR">ZAR</option>
+          </select>
+          <!-- <span class="custom-arrow"></span> -->
+        </div>
+
+        <!-- Your rate value -->
+        <div class="rate">
+          <h4 class="rate__title">Your rate:</h4>
+          <div class="rate__values">
+            <span class="rate__curr">1 GBP =</span>
+            <span class="rate__valueCurr"> USD 1.122</span>
+          </div>
+        </div>
+
+        <!-- Button check adn places rates-->
+        <div class="placeBtn">
+          <button class="placeBtn__rates">Check and places rates</button>
+        </div>
+    </sectio>
+    </header>
+
+    <script src="mian.js"></script>
+  </body>
+</html>

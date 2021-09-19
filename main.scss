@@ -213,6 +213,9 @@ body {
   width: 90%;
   margin: -31rem auto 0 auto;
   padding: 3rem;
+  @include responsive(mobilespecial) {
+    margin: -1rem auto 0 auto;
+  }
   @include responsive(tablandscape) {
     margin: -16rem auto 0 auto;
   }

@@ -103,7 +103,7 @@ body {
   min-height: 81vh;
   background-image: url(/images/background.svg);
   background-size: cover;
-  background-position: right 281rem center;
+  background-position: center center;
   @include responsive(tablandscape) {
     min-height: 72vh;
   }
